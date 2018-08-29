@@ -1,0 +1,577 @@
+
+
+@font-face{ src: url(../fonts/Exo2-Black.ttf); font-family: "Exo2-Black.ttf";  }
+@font-face{ src: url(../fonts/Exo2-Black1.ttf); font-family: "Exo2-Black1.ttf";  }
+@font-face{ src: url(../fonts/Exo2-BlackItalic.ttf); font-family: "Exo2-BlackItalic.ttf";  }
+@font-face{ src: url(../fonts/Exo2-BlackItalic1.ttf); font-family: "Exo2-BlackItalic1.ttf";  }
+@font-face{ src: url(../fonts/Exo2-Bold.ttf); font-family: "Exo2-Bold.ttf";  }
+@font-face{ src: url(../fonts/Exo2-Bold1.ttf); font-family: "Exo2-Bold1.ttf";  }
+@font-face{ src: url(../fonts/Exo2-BoldItalic.ttf); font-family: "Exo2-BoldItalic.ttf";  }
+@font-face{ src: url(../fonts/Exo2-BoldItalic1.ttf); font-family: "Exo2-BoldItalic1.ttf";  }
+@font-face{ src: url(../fonts/Exo2-ExtraBold.ttf); font-family: "Exo2-ExtraBold.ttf";  }
+@font-face{ src: url(../fonts/Exo2-ExtraBold1.ttf); font-family: "Exo2-ExtraBold1.ttf";  }
+@font-face{ src: url(../fonts/Exo2-ExtraBoldItalic.ttf); font-family: "Exo2-ExtraBoldItalic.ttf";  }
+@font-face{ src: url(../fonts/Exo2-ExtraBoldItalic1.ttf); font-family: "Exo2-ExtraBoldItalic1.ttf";  }
+@font-face{ src: url(../fonts/Exo2-ExtraLight.ttf); font-family: "Exo2-ExtraLight.ttf";  }
+@font-face{ src: url(../fonts/Exo2-ExtraLight1.ttf); font-family: "Exo2-ExtraLight1.ttf";  }
+@font-face{ src: url(../fonts/Exo2-ExtraLightItalic.ttf); font-family: "Exo2-ExtraLightItalic.ttf";  }
+@font-face{ src: url(../fonts/Exo2-ExtraLightItalic1.ttf); font-family: "Exo2-ExtraLightItalic1.ttf";  }
+@font-face{ src: url(../fonts/Exo2-Italic.ttf); font-family: "Exo2-Italic.ttf";  }
+@font-face{ src: url(../fonts/Exo2-Italic1.ttf); font-family: "Exo2-Italic1.ttf";  }
+@font-face{ src: url(../fonts/Exo2-Light.ttf); font-family: "Exo2-Light.ttf";  }
+@font-face{ src: url(../fonts/Exo2-Light1.ttf); font-family: "Exo2-Light1.ttf";  }
+@font-face{ src: url(../fonts/Exo2-LightItalic.ttf); font-family: "Exo2-LightItalic.ttf";  }
+@font-face{ src: url(../fonts/Exo2-LightItalic1.ttf); font-family: "Exo2-LightItalic1.ttf";  }
+@font-face{ src: url(../fonts/Exo2-Medium.ttf); font-family: "Exo2-Medium.ttf";  }
+@font-face{ src: url(../fonts/Exo2-Medium1.ttf); font-family: "Exo2-Medium1.ttf";  }
+@font-face{ src: url(../fonts/Exo2-MediumItalic.ttf); font-family: "Exo2-MediumItalic.ttf";  }
+@font-face{ src: url(../fonts/Exo2-MediumItalic1.ttf); font-family: "Exo2-MediumItalic1.ttf";  }
+@font-face{ src: url(../fonts/Exo2-Regular.ttf); font-family: "Exo2-Regular.ttf";  }
+@font-face{ src: url(../fonts/Exo2-Regular1.ttf); font-family: "Exo2-Regular1.ttf";  }
+@font-face{ src: url(../fonts/Exo2-SemiBold.ttf); font-family: "Exo2-SemiBold.ttf";  }
+@font-face{ src: url(../fonts/Exo2-SemiBold1.ttf); font-family: "Exo2-SemiBold1.ttf";  }
+@font-face{ src: url(../fonts/Exo2-SemiBoldItalic.ttf); font-family: "Exo2-SemiBoldItalic.ttf";  }
+@font-face{ src: url(../fonts/Exo2-SemiBoldItalic1.ttf); font-family: "Exo2-SemiBoldItalic1.ttf";  }
+@font-face{ src: url(../fonts/Exo2-Thin.ttf); font-family: "Exo2-Thin.ttf";  }
+@font-face{ src: url(../fonts/Exo2-Thin1.ttf); font-family: "Exo2-Thin1.ttf";  }
+@font-face{ src: url(../fonts/Exo2-ThinItalic.ttf); font-family: "Exo2-ThinItalic.ttf";  }
+@font-face{ src: url(../fonts/Exo2-ThinItalic1.ttf); font-family: "Exo2-ThinItalic1.ttf";  }
+
+
+/*http://www.transitplus.ru/clients/
+-webkit-appearance: none;*/
+section{
+    max-width: 1920px;
+    margin: auto;
+}
+body{
+
+    padding: 0;
+    margin: 0;
+
+}
+
+img{
+    display: block;
+}
+
+p{
+    margin: 0;
+}
+
+
+.main{
+
+    background-size: cover;
+
+
+}
+
+.service{
+    background-image: url("../img/service.png");
+    background-size: 101.5% 100%;
+
+    min-height: 800px;
+
+}
+
+
+
+
+
+.rotatable{
+    font-family: "Exo2-Medium.ttf";
+    -webkit-transform: rotate(-90deg);
+
+
+    vertical-align: top ;
+}
+
+
+
+.service-block{
+    min-height: 230px;
+
+    max-width: 350px;
+    max-height: 300px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    flex-wrap: wrap;
+    text-align: center;
+    background-size: cover;
+
+    color: white;
+    margin: 20px 10px;
+
+    background: no-repeat center;
+
+    font-family: "Exo2-Bold.ttf";
+    box-shadow: 0.2em 0.2em 2px rgba(0,0,0,0.3);
+
+}
+
+
+
+.service-button{
+
+    font-family: "Exo2-Bold1.ttf";
+    font-size: x-small;
+
+    padding: 10px 0;
+    margin: 60px 10px 0;
+    text-align: center;
+    border: 1px #636397 solid;
+    color: #636397;
+    width: 100px;
+
+}
+
+
+
+.service-text{
+    margin: 15px 10px 0;
+    font-family: "Exo2-Bold1.ttf";
+    font-size: x-large;
+}
+
+.service-text-description{
+    margin: 0 10px 0;
+
+    font-family: "Exo2-Bold.ttf";
+    font-size: small;
+
+}
+
+.service-menu{
+    width: 20px;
+    height: 10px;
+}
+.service-menu{
+
+}
+.service-img{
+    width: 25px;
+
+}
+
+.container-fluid{
+    margin: auto;
+}
+
+
+
+
+#a{
+    background-color: #782047;
+    background-image: url("../img/service1.png");
+
+}
+
+
+#b{
+    background-color: #4e5077;
+    background-image: url("../img/service2.png");
+
+}
+
+#c {
+    background-color: #4750a4;
+    background-image: url("../img/service3.png");
+}
+
+
+#d{
+    background-color: #4e5077;
+    background-image: url("../img/service4.png");
+
+
+
+}
+
+#e{
+    background-color: #523460;
+    background-image: url("../img/service5.png");
+
+}
+
+#f{
+    background-color: #8e3293;
+    outline: #bb97bc solid 1px;
+
+    outline-offset: -10px;
+    background-size: cover;
+
+
+}
+
+
+
+
+
+.service-block-content{
+    margin: 20px auto;
+    font-size: small;
+}
+
+.service-block-content-button{
+
+    background-color: #c51696;
+    font-family: "Exo2-Bold1.ttf";
+    padding: 8px 0;
+    width: 65%;
+    font-size: x-small;
+
+}
+.column-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.column-right-content{
+
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 30px;
+}
+
+.service-img-1{
+    width: 35px;
+    height: 35px;
+    margin: 2px;
+    background-color: #b81683;
+
+}
+
+
+
+
+
+
+
+
+
+.description{
+    background-image: url("../img/dots.png");
+
+
+    height: 900px;
+}
+
+.flex-description{
+    display: flex;
+    flex-direction: row;
+    padding-left: 136px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+
+}
+
+.star{
+    padding-right: 80px;
+    padding-bottom: 21px;
+    border-right: 1px solid #b8b9cc;
+}
+
+.flex-description-text{
+    padding-left:  56px;
+
+}
+
+
+.light{
+    font-family: "Exo2-Light.ttf";
+    display: inline;
+}
+.regular{
+    font-family: "Exo2-Regular.ttf";
+    display: inline;
+}
+.bold{
+    font-family: "Exo2-Bold.ttf";
+    display: inline;
+}
+.inline{
+    vertical-align: top;
+    font-size: 25pt;
+}
+.text1{
+    font-family: "Exo2-Bold.ttf";
+    margin: 15px 0;
+}
+.menu {
+    margin-left: 150px;
+}
+
+
+
+
+
+
+
+
+.questions{
+    background-image: url("../img/questions.png");
+    height: 706px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+.advantages{
+    background-image: url("../img/advantages.png");
+    min-height: 700px;
+    background-size: cover;
+}
+
+
+
+.advantages-block{
+
+    min-height: 230px;
+    max-width: 350px;
+    max-height: 300px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    flex-wrap: wrap;
+    text-align: center;
+    background-size: cover;
+
+    color: #2e2945;
+    margin: 20px 10px;
+    background: url("../img/adv-block-background.png") no-repeat center;
+    background-size: cover;
+
+
+    outline: 1px #c6beda solid;
+    outline-offset: -7px;
+    border: 6px white solid;
+
+    font-family: "Exo2-Bold.ttf";
+    box-shadow: 0.2em 0.2em 2px rgba(0,0,0,0.3);
+
+}
+
+
+.advantages-block-content{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.advantages-block-content > img{
+    width: 100px;
+    margin: 20px auto;
+}
+
+
+
+.advantages-block-content > p{
+    margin: 5px 0;
+}
+
+.advantages-text{
+    margin: 15px 10px 0;
+    font-family: "Exo2-Light.ttf";
+    font-size: large;
+    display: flex;
+    flex-direction: row;
+}
+
+.advantages-text-1{
+    font-family: "Exo2-Bold.ttf";
+    font-size: large;
+}
+
+.advantages-block-text{
+
+    font-family: "Exo2-Light.ttf";
+
+
+    line-height: 5px;
+}
+
+.advantages-block-text-1{
+    font-family: "Exo2-Bold.ttf";
+}
+
+.advantages-block-text-2{
+    font-size: x-small;
+}
+
+
+
+
+
+
+
+
+
+
+.subscribe{
+    background-image: url("../img/subscribe.png");
+    height: 414px;
+
+
+    background-size: cover;
+
+}
+
+
+
+
+.performed{
+    background-image: url("../img/performed.png");
+    height: 1427px;
+    background-size: cover;
+}
+
+
+.perf-block{
+    min-height: 250px;
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    flex-wrap: wrap;
+    text-align: center;
+    background-size: auto;
+
+    background-repeat: no-repeat;
+
+    color: white;
+    margin: 20px auto;
+    background-position: center;
+
+    font-family: "Exo2-Bold.ttf";
+
+}
+
+
+
+
+
+#a1{
+    background-color: #782047;
+    background-image: url("../img/cookery.png");
+
+}
+
+
+#b1{
+    background-color: #4e5077;
+    background-image: url("../img/atlant.png");
+
+}
+
+#c1{
+    background-color: #4750a4;
+    background-image: url("../img/car.png");
+}
+
+
+#d1{
+    background-color: #4e5077;
+    background-image: url("../img/people.png");
+
+
+
+}
+
+#e1{
+    background-color: #523460;
+    background-image: url("../img/teambuilding.png");
+
+}
+
+#f1{
+    background-color: #78337c;
+    background-image: url("../img/corporative-event.png");
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.reviews{
+    background-image: url("../img/reviews.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+
+    height: 650px;
+}
+
+.clients{
+    background-image: url("../img/clients.png");
+    min-height: 700px;
+}
+
+.clients-block{
+    min-height: 250px;
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    flex-wrap: wrap;
+    text-align: center;
+    background-size: auto;
+
+    background-repeat: no-repeat;
+
+    color: #2d2a48;
+    margin: 20px auto;
+    background-position: center;
+
+    font-family: "Exo2-Bold.ttf";
+
+    background-image: url("../img/adv-block-background.png");
+
+
+}
+
+
+
+
+.form{
+    background-image: url("../img/form.png");
+    height: 665px;
+    background-size: cover;
+}
+
+
+
+.a{
+    background-color: #005cbf;
+    opacity: 0.2;
+}
+
+.b{
+    background-color: cornflowerblue;
+    opacity: 0.2;
+}
